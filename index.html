@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This makes the page auto refresh -->
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <title>Munny Machine</title>
+    <link rel="icon" href="assets/images/heartlessicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-10 offset-xs-1 col-md-4 offset-md-4">
+                    <div id="name">
+                        <h1>The Munny Machine</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-10 offset-md-1">
+                    <div id="gameInstructions">
+                        <p> Each Heartless has a small amount of Munny in their pocket, but they fight back so you can
+                            only take so much each time. See if you can obtain the perfect amount of Munny from the
+                            Heartless to match the number of Munnies in the middle.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row no-gutters">
+                <div class="col-6 col-md-2 offset-md-4">
+                    <div class="munny-number"> <img class="munny" src="assets/images/munny.png"> <span id="gameNumber">
+                        </span> </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="wins-losses">
+                        <div id="wins"> </div>
+
+                        <div id="losses"> </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-6 col-md-2 offset-md-2">
+                    <div class="heartless" id="basic-heartless">
+                        <img src="assets/images/basic-heartless.png">
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="heartless" id="heartless-soldier">
+                        <img src="assets/images/soldier-heartless.png">
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="heartless" id="heartless-neoshadow">
+                        <img src="assets/images/heartless-neoshadow.png">
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="heartless" id="white-heartless">
+                        <img src="assets/images/white-heartless.jpg">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-10 offset-xs-1 col-md-4 offset-md-4">
+                    <div class="total">
+                        <p>Your total Munnies is:</p>
+                        <hr>
+                        <img class="munny" src="assets/images/Munny.png"> <span id="userNumber"> </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 
+            <div class="row">
+                <div class="col-xs-10 offset-xs-1 col-md-4 offset-md-4">
+                    <div class="total" id="userNumber"> </div>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+</body>
+<script src="assets/javascript/jquery-3.3.1.min.js"></script>
+<script src="assets/javascript/tether.js"></script>
+<script src="assets/javascript/bootstrap.min.js"></script>
+<script id="didntExpectDb" src="assets/javascript/db.js"></script>
+<script src="assets/javascript/game.js"></script>
+
+</html>

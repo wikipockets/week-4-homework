@@ -1,0 +1,73 @@
+@font-face { font-family: Zelda; src: url('../fonts/HyliaSerifBeta-Regular.otf');} 
+
+body, html { 
+  background-image: url(../images/heartlessBackground.gif);
+height: 100%;
+   background-size:cover;
+   text-align: center;
+   font-family: Zelda;
+}
+
+
+.munny-number, .wins-losses, .heartless, .total, #name, #gameInstructions {
+	border: 2px solid black;
+	background-color: #D4AE67;
+	color: #201713;
+	opacity: .95;
+	font-weight: bold;
+	margin: 2% 1%;
+}
+
+.munny-number {
+	padding: 10.5%;
+	color: #1F6250;
+	font-size: 1.5em;
+}
+
+#gameInstructions {
+	padding: 2%;
+}
+
+.heartless {
+	opacity: 1;
+}
+
+.heartless img {
+	padding: 2%;
+	max-width: 80px;
+	height: 110px;
+	opacity: 1;
+}
+
+#wins {
+	padding: 5%;
+}
+
+#losses {
+	padding: 5%;
+}
+
+.munny {
+	width: 30px;
+	padding: 1%;
+}
+
+hr {
+	margin: 1%;
+}
+
+#userNumber {
+	font-size: 1.5em;
+}
+
+#name {
+	color: #5F0405;
+}
+
+.winning-number {
+	color: #1F6250;
+}
+
+.losing-number {
+	color: #5F0405;
+}
