@@ -79,7 +79,7 @@ function gameChecker() {
     if (userNumber === gameNumber) {
         gameOver = true;
         wins++;
-        wins.play();
+        win.play();
         $("#userNumber").attr("class", "winning-number");
         console.log(heartlessValues);
         setTimeout(newGame, 1850);
